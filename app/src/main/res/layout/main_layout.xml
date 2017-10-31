@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:focusableInTouchMode="true">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000" >
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <View
+                android:id="@+id/strut"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_centerHorizontal="true"/>
+
+<!--
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_horizontal"
+                android:text="DIARY"
+                android:textColor="#F15A5A"
+                android:textSize="20dip"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-medium" />
+-->
+
+<!--
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter any text or date"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="#ffffff" />
+-->
+
+            <EditText
+                android:id="@+id/etSQLName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/rectangle_round_corner_filled"
+                android:textColor="@color/edittextcolor"
+                android:inputType="textCapWords|textMultiLine"
+                android:maxLength="2000"
+                android:maxLines="4"
+                android:hint="Text or date"
+                android:textColorHint="@color/hinttextcolor"
+                android:textCursorDrawable="@drawable/color_cursor" >
+
+            </EditText>
+<!--
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etSQLName"
+                android:text="Enter the description"
+                android:textColor="#ffffff" />-->
+
+            <EditText
+                android:id="@+id/etSQLDescription"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_below="@id/etSQLName"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLength="2000"
+                android:maxLines="4"
+                android:background="@drawable/rectangle_round_corner_filled"
+                android:textColor="@color/edittextcolor"
+                android:hint="Enter the description"
+                android:textColorHint="@color/hinttextcolor"
+                android:textCursorDrawable="@drawable/color_cursor" />
+
+
+            <Button
+                android:id="@+id/bSQLUpdate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:textColor="@color/buttontextcolor"
+                android:layout_alignRight="@id/strut"
+                android:layout_below="@+id/etSQLDescription"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/bSQLopenView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/etSQLDescription"
+                android:layout_alignLeft="@id/strut"
+                android:layout_alignParentRight="true"
+                android:text="Diary"
+                android:textColor="@color/buttontextcolor" />
+
+           <!-- <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bSQLopenView"
+                android:text="Which row you want to edit?"
+                android:textColor="#ffffff" />
+-->
+           <!-- <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView5"
+                android:text="Enter that row number bellow.."
+                android:textColor="#ffffff" />
+-->
+            <EditText
+                android:id="@+id/etSQLrowInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bSQLopenView"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@drawable/rectangle_round_corner_filled_yellow"
+                android:textColor="@color/edittextcolor"
+                android:inputType="number|textCapWords|textMultiLine"
+                android:maxLength="2000"
+                android:maxLines="4"
+                android:hint="Enter row number"
+                android:textColorHint="@color/hinttextcolor"
+                android:textCursorDrawable="@drawable/color_cursor" />
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/bgetInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/etSQLrowInfo"
+                android:layout_alignParentLeft="true"
+                android:text="Get the information of the given row"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:id="@+id/bSQLmodify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bgetInfo"
+                android:layout_alignRight="@id/strut"
+                android:layout_alignParentLeft="true"
+                android:text="Update / Modify"
+                android:textColor="@color/updatebuttoncolor"
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/bSQLdelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bgetInfo"
+                android:layout_alignLeft="@id/strut"
+                android:layout_alignParentRight="true"
+                android:text="Delete Entry"
+                android:textColor="@color/deletebuttoncolor"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bSQLdelete"
+                android:layout_marginTop="20dp"
+                android:text="To update of modify an entry get information of that row first then click the 'Update/Modify' button. It is recommended that you do not delete an entry rather modify it."
+                android:textColor="#ffffff" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView7"
+                android:text="N.B. Do not clear data from the &apos;App Info&apos; option unless you want to clear all entry from your entire database."
+                android:textColor="#cfe41a" />
+<!--
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textView4"
+                android:gravity="right"
+                android:text="\nDEVELOPER"
+                android:textColor="#089c7f" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@id/textView8"
+                android:gravity="right"
+                android:text="sabbirk7@facebook.com"
+                android:textColor="#089c7f" />-->
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

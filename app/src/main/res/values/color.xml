@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="hinttextcolor">#b6b6b6</color>
+    <color name="buttontextcolor">#ffffff</color>
+    <color name="edittextcolor">#ffffff</color>
+    <color name="deletebuttoncolor">#ff5b5b</color>
+    <color name="updatebuttoncolor">#ffe100</color>
+</resources>

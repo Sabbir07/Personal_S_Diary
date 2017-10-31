@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="buttontextcolor">#ffffff</color>
+    <color name="deletebuttoncolor">#ff5b5b</color>
+    <color name="edittextcolor">#ffffff</color>
+    <color name="hinttextcolor">#b6b6b6</color>
+    <color name="updatebuttoncolor">#ffe100</color>
+    <string name="app_name">Personal Diary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

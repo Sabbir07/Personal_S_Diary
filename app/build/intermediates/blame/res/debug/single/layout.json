@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "C:\\AllOthers\\Android_2\\Workspace\\Personal_S_Diary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_layout.xml",
+        "source": "C:\\AllOthers\\Android_2\\Workspace\\Personal_S_Diary\\app\\src\\main\\res\\layout\\main_layout.xml"
+    },
+    {
+        "merged": "C:\\AllOthers\\Android_2\\Workspace\\PersonalDictionaryS_Diary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sql_database.xml",
+        "source": "C:\\AllOthers\\Android_2\\Workspace\\PersonalDictionaryS_Diary\\app\\src\\main\\res\\layout\\sql_database.xml"
+    },
+    {
+        "merged": "C:\\AllOthers\\Android_2\\Workspace\\PersonalDictionaryS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sqlview.xml",
+        "source": "C:\\AllOthers\\Android_2\\Workspace\\PersonalDictionaryS\\app\\src\\main\\res\\layout\\sqlview.xml"
+    },
+    {
+        "merged": "C:\\AllOthers\\Android_2\\Workspace\\PersonalDictionaryS_Diary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main_layout.xml",
+        "source": "C:\\AllOthers\\Android_2\\Workspace\\PersonalDictionaryS_Diary\\app\\src\\main\\res\\layout\\main_layout.xml"
+    },
+    {
+        "merged": "C:\\AllOthers\\Android_2\\Workspace\\Personal_S_Diary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sql_database.xml",
+        "source": "C:\\AllOthers\\Android_2\\Workspace\\Personal_S_Diary\\app\\src\\main\\res\\layout\\sql_database.xml"
+    },
+    {
+        "merged": "C:\\AllOthers\\Android_2\\Workspace\\PersonalDictionaryS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sqliteexample.xml",
+        "source": "C:\\AllOthers\\Android_2\\Workspace\\PersonalDictionaryS\\app\\src\\main\\res\\layout\\sqliteexample.xml"
+    },
+    {
+        "merged": "D:\\Android_2\\Workspace\\PersonalDictionaryS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sqliteexample.xml",
+        "source": "D:\\Android_2\\Workspace\\PersonalDictionaryS\\app\\src\\main\\res\\layout\\sqliteexample.xml"
+    },
+    {
+        "merged": "D:\\Android_2\\Workspace\\PersonalDictionaryS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sqlview.xml",
+        "source": "D:\\Android_2\\Workspace\\PersonalDictionaryS\\app\\src\\main\\res\\layout\\sqlview.xml"
+    }
+]
